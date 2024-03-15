@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-color: #ececec;
+  min-height: 100vh;
+}
+.navbar {
+  background-color: #3367d6;
+  display: flex;
+  padding: 15px;
+  padding-right: 150px;
+  padding-left: 50px;
+}
+.app-logo {
+  width: 100px;
+}
+.app-logo-container {
+  padding: 2px;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+.search-icon {
+  left: 4vh;
+  position: relative;
+  width: 2.5vh;
+}
+.input {
+  background-color: #2850a7;
+  border: 1px solid #6697ff;
+  width: 350px;
+  height: 4vh;
+  padding-left: 4.5vh;
+  font-size: 12px;
+  border-radius: 4px;
+  color: #ffffff;
+  outline: none;
+}
+.list-container {
+  padding: 20px;
+  background-color: #f8fafc;
+  width: 90%;
+  list-style-type: none;
+  border-radius: 8px;
+}
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-family: 'Roboto';
+}
+.content-container-error-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-family: 'Roboto';
+  min-height: 90.5vh;
+}
+.list-item {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+.list-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.list-app-image {
+  width: 30px;
+}
+.list-app-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  margin-right: 1px;
+}
+.time-text {
+  width: 80px;
+  margin-right: 20px;
+  font-size: 14px;
+  color: #64748b;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app-name {
+  font-size: 16px;
+  color: #475569;
+  font-weight: 500;
+  padding-right: 10px;
+}
+.app-link {
+  font-size: 14px;
+  color: #64748b;
+}
+.delete-icon-container {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+.delete-icon {
+  width: 20px;
+}
+.error-message {
+  font-size: 18px;
+  color: #475569;
+  font-weight: 500;
+}
